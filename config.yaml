@@ -1,0 +1,13 @@
+trading:
+  risk_per_trade: 0.01
+  max_daily_loss: -50
+  max_consecutive_loss: 5
+  timeframe: 60
+
+system:
+  mode: PRACTICE
+  loop_interval: 5
+
+ai:
+  epsilon_start: 1.0
+  epsilon_min: 0.01
